@@ -34,7 +34,7 @@ else
 		echo "$(tput setaf 3)[2] Launch"
 		echo ""
 		echo "$(tput setaf 7)Building.."
-		cd Noel.NET.Core || exit
+		cd Noel.NET && Noel.NET.Core || exit
 		sleep 5s
 		dotnet build
 		echo "Done"
