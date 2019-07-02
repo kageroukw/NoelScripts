@@ -1,5 +1,8 @@
 #!/bin/bash
 
+apt install git
+apt install curl
+apt install dos2unix
 echo ""
 echo "Registering Microsoft..."
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.asc.gpg
