@@ -33,8 +33,8 @@ else
 	if [ $choice -eq 2 ]; then \
 		echo "$(tput setaf 3)[2] Launch"
 		echo ""
-		cd Noel.NET.Core || exit
 		echo "$(tput setaf 7)Building.."
+		cd Noel.NET.Core || exit
 		sleep 5s
 		dotnet build
 		echo "Done"
