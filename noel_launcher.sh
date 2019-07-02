@@ -2,7 +2,7 @@
 echo ""
 echo ""
 echo "   $(tput setaf 6) ____  _____     ____      _________    _____    "
-echo "   $(tput setaf 6)|_   \|_   _|  .'    '.    _   ___  |  |_   _|   "
+echo "   $(tput setaf 6)|_   \|_   _|  .'    '.   |_   ___  |  |_   _|   "
 echo "   $(tput setaf 6)  |   \ | |   /  .--.  \    | |_  \_|    | |     "
 echo "   $(tput setaf 6)  | |\ \| |   | |    | |    |  _|  _     | |   _ "
 echo "   $(tput setaf 6) _| |_\   |_  \  '--'  /   _| |___/ |   _| |__/ |"
