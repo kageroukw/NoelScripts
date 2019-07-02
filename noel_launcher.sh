@@ -26,7 +26,7 @@ if [ $choice -eq 1 ]; then \
 	echo ""
 	echo "$(tput setaf 7)Starting download.."
 	sleep 5s
-	git clone https://github.com/Kwothsei/Noel.NET.git
+	git clone git://github.com/Kwothsei/Noel.NET
 	echo ""
 	echo "Done!"
 else
